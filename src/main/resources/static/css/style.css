@@ -1,0 +1,33 @@
+body{
+		background: gray;
+}
+
+.bg-primary{
+	background-color: aquamarine;
+}
+
+.banner{
+	height: 580px;
+	width: 100%;
+	background:url(../../../resources/static/img/banner.jpg);
+	background: gray;
+
+	color: white;
+}
+
+.container{
+	padding-top: 5px;
+
+}
+
+.registation{
+	background: black;
+	
+}
+
+.my-card{
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+
+}
