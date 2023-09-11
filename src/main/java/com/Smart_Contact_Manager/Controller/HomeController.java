@@ -97,4 +97,11 @@ public class HomeController {
 
 	}
 
+	
+	//handaller for custom login
+	@GetMapping("/signing")
+	public String customLogin(Model model) {
+		model.addAttribute("title","Login pages title");
+		return "login";
+	}
 }
